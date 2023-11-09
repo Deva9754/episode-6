@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .nav-items > ul {
+    display: flex;
+  }
+  
+  .nav-items > ul > li {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+  }
+  .nav-items > ul > li:hover {
+    color: brown;
+    cursor: pointer;
+  }
+  
+  .search {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 5px;
+
+  }
+  .search input {
+    width: 300px;
+    box-shadow: 10px;
+  }
+  
+  .input {
+    width: 50%;
+  }
+  .filter{
+    padding: 10px;
+  }
+  .filter-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+  }
+  .res-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  
+  .cards {
+    padding: 5px;
+    width: 200px;
+    min-height: 200px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    text-align: start;
+    cursor: pointer;
+    border: 5px solid grey;
+  }
+  
+  .card:hover {
+    border: 1px solid #000;
+  }
+  
+  .res-logo {
+    width: 200px;
+    height: 150px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .logo {
+      width: 70px;
+    }
+    .nav-items > ul > li {
+      font-size: 12px;
+    }
+    .input {
+      width: 100%;
+    }
+  }
